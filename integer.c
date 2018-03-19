@@ -1,0 +1,22 @@
+#include<stdio.h>
+ 
+void main()
+{
+  int i,n,Sum=0,numbers;
+ 
+  printf("\nPlease Enter How many number");
+  scanf("%d",&n);
+ 
+  printf("\nPlease Enter the elements one by one\n");
+  for(i=0;i<n;++i)
+   {
+     scanf("%d",&numbers);
+     Sum = Sum +numbers;
+   }
+ 
+  Average = Sum/n;
+ 
+  printf("\nSum of the %d Numbers = %d",n, Sum);
+ 
+  return 0;
+}
